@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Co-op Digital is building digital products, services and platforms to help our the Co-op make the most of digital.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+This is where the developers, platform engineers, quality analysts and tech ops share their techy goodness.
 
-### Contact me
+### Contact us
 
-[email@domain.com](mailto:email@domain.com)
+[digital.jobs@coop.co.uk](mailto:digital.jobs@coop.co.uk)
