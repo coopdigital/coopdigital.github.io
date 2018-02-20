@@ -1,0 +1,19 @@
+
+/* 
+  probably redundant styles once we import 
+  the coop front end toolkit
+*/
+.video-club {
+  article {
+    border: solid 1px darkgrey;
+    margin-bottom: 15px;
+    padding: 15px;
+
+    &:first-of-type {
+      margin-top:15px;
+    }
+  }
+  h1 {
+    margin: 0;
+  }
+}
