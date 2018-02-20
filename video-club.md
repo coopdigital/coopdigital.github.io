@@ -11,13 +11,13 @@ If you prefer twitter you can [see our tweets about video club there](https://tw
 <div class="video-club">
   {% assign sorted_videos = site.data.video_club | sort:"date" | reverse %}
   {% for video in sorted_videos %}
-    <article>
+    <div class="video-tile">
 
       <h1>{{ video.title }}</h1>
       <h3>{{ video.presenter }}</h3>
       <div class="entry">
         <div class="watched-date">
-          {{ video.date }}
+          {{ video.date | date: "%d-%m-%Y" }}
         </div>
         <a href="{{ video.video_url }}">
           watch at: {{ video.video_url }}
@@ -28,10 +28,12 @@ If you prefer twitter you can [see our tweets about video club there](https://tw
 
         {% if video.image_url and video.image_url != blank %}
           <div class="image-footer">
-            <img src="{{ video.image_url }}" />
+            <a href="{{ video.video_url }}">
+              <img src="{{ video.image_url }}" />
+            </a>
           </div>
         {% endif%}
       </div>
-    </article>
+    </div>
   {% endfor %}
 </div>
