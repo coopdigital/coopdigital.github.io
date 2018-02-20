@@ -110,13 +110,6 @@
   note: 
   date: 2017-12-13
 
-- presenter: Steve Freeman
-  title: Given When Then considered harmful
-  video_url: https://skillsmatter.com/skillscasts/5009-given-when-then-considered-harmful
-  image_url:
-  note: 
-  date: 2017-12-13
-
 - presenter: Hadi Hariri
   title: intellij tips and tricks
   video_url: https://www.youtube.com/watch?v=P2MoObVeMX4
@@ -129,14 +122,14 @@
   video_url: https://www.youtube.com/watch?v=K-CXYyMGR6Y&app=desktop
   image_url:
   note: 
-  date: 2017-01-03
+  date: 2018-01-03
 
 - presenter: Charity Majors
   title: Observability for emerging infra
   video_url: https://www.youtube.com/watch?v=1wjovFSCGhE&app=desktop
   image_url:
   note: 
-  date: 2017-01-17
+  date: 2018-01-17
 
 - presenter: Gary Bernhardt
   title: Boundaries
@@ -150,25 +143,25 @@
   video_url: https://www.youtube.com/watch?v=IDKJJDiK3Gw
   image_url:
   note: 
-  date: 2017-01-31
+  date: 2018-01-31
 
 - presenter: J. B. Rainsberger
   title: 7 mins and 26 seconds
   video_url: https://vimeo.com/79106557
   image_url:
   note: 
-  date: 2017-01-31
+  date: 2018-01-31
 
 - presenter: Gwen Shapira
   title: Stream All Things - Patterns of Modern Data Integration
   video_url: https://www.youtube.com/watch?v=Hjae0Cw9oew
   image_url:
   note: 
-  date: 2017-02-07
+  date: 2018-02-07
 
 - presenter: Dan North
   title: How to Break the Rules
   video_url: https://www.youtube.com/watch?v=hZFShSjAhlQ
   image_url:
   note: 
-  date: 2017-02-14
+  date: 2018-02-14
