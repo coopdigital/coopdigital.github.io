@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bob
-permalink: /bob/
+title: About
+permalink: /about/
 ---
 
 Co-op Digital is building digital products, services and platforms to help our the Co-op make the most of digital.
