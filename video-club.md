@@ -7,7 +7,8 @@ layout: default
   Every wednesday we get together to watch a video over lunch.
 </div>
 <div class="video-club">
-  {% for video in site.data.video_club %}
+  {% assign sorted_videos = site.data.video_club | sort:"date" | reverse %}
+  {% for video in sorted_videos %}
     <article>
 
       <h1>{{ video.title }}</h1>
@@ -19,6 +20,9 @@ layout: default
         <a href="{{ video.video_url }}">
           watch at: {{ video.video_url }}
         </a>
+        {% if video.note and video.note != blank %}
+        <p> {{ video.note }} </p>
+        {% endif%}
       </div>
     </article>
   {% endfor %}
