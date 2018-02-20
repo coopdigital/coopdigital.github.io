@@ -3,20 +3,24 @@
 Built using a fork of **Jekyll Now** (https://github.com/barryclark/jekyll-now/)
 
 ## Quick Start
+There are 3 different ways that you can make changes to your blog's files:
+1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
+2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
+3. Clone down your repository and make updates locally, then push them to your GitHub repository.
 
-> There are 3 different ways that you can make changes to your blog's files:
-
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
-
-### Step 1) Publishing first blog post
-
+## Publishing first blog post
 This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
 
-You can add additional posts in the browser on GitHub.com too! Just hit the Create New File in `/_posts/` to create new content. 
+1. Go to `/_posts/` and create a new file:
+2. filename is in this format: year-month-day-title.md
+3. Include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post
 
-Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+## Adding a new page
+1. Any page in root with a .md or .html
+2. To add to the navigation edit `/_layouts/default.html`
+
+## Configuring
+Check out `_config.yml` for some of the settings.
 
 ## Local Development
 1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
