@@ -9,7 +9,7 @@ name: Co-op Digital Engineering
 description: A place for the Co-op Digital Engineers to share things
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://coop-design-manual.herokuapp.com/assets/images/logos/coop-logo.svg
+avatar: /images/logo.svg
 
 #
 # Flags below are optional
