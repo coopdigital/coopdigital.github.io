@@ -1,0 +1,30 @@
+---
+layout: post
+title: HAC100 Youth Hack Challenge
+---
+
+
+I am writnig a log
+
+
+stronger co op stronger communities
+
+- the challenge is... make something to strengthen your local community.
+
+- this could be
+	- a web page sharing information about life in your community
+	- using google maps, a way of showing interesting places in your community on a map
+	- using a dataset or API (such as one that you can find on [https://www.kaggle.com]) to find and display interesting information about your community 
+	- a way of creating a group of local people to share food or activities with
+
+
+- interesting datasets can be found on https://www.kaggle.com
+- some useful UK/manchester APIs: 
+			
+	- data.gov.uk
+	- ons.gov.uk
+	- open.manchester.gov.uk
+	- mappinggm.org.uk
+	- developer.tfgm.com
+	- data.police.uk
+
