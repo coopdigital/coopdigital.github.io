@@ -7,17 +7,17 @@ title: HAC100 Youth Hack Challenge
 
 We give 1% of what members spend on Co-op branded food products in our stores and selected services, as well as money raised from sales of carrier bags and Co-op scratch cards in our stores, to local projects – from improving community spaces or helping school leavers learn life skills, to simply connecting people.
 
-- the challenge is... *make something to connect people in your local community.*
+### The challenge is... *make something to connect people in your local community.*
 
-- this could be
+- This could be:
 	- a web page sharing information about life in your community
 	- using google maps, a way of showing interesting places in your community on a map
 	- using a dataset or API to find and display interesting information about your community 
 	- a way of creating a group of local people to share food or activities with
 
 
-- interesting datasets can be found on https://www.kaggle.com
-- some useful UK/manchester APIs: 
+- Interesting datasets can be found on [https://www.kaggle.com](https://www.kaggle.com)
+- Some useful UK/manchester APIs: 
 			
 	- data.gov.uk
 	- ons.gov.uk
