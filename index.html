@@ -1,18 +1,28 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The web site of coopdigital</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <h1>Digital Technology Job Descriptions as HTML</h1>
+    
+    <ul>
+      <li><a href="/junior-software-engineers.html">Junior Software Engineers</a></li>
+      <li><a href="/senior-software-engineers.html">Senior Software Engineers</a></li>
+      <li><a href="/platform-engineers.html">Platform Engineers</a></li>
+      <li><a href="/quality-analysts.html">Quality Analysts</a></li>
+    </ul>
+    
+    <h2>Principals</h2>
+    <ul>
+      <li><a href="/principal/platform.html">Principal Platform Engineers</a></li>
+      <li><a href="/principal/software.html">Principal Software Engineers</a></li>
+    </ul>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+  </body>
+</html>
